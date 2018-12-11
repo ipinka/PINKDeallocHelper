@@ -15,6 +15,7 @@
 		3FB6859221BFB3240060E639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6859121BFB3240060E639 /* main.m */; };
 		3FB6859C21BFB3240060E639 /* PINKDeallocHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6859B21BFB3240060E639 /* PINKDeallocHelperTests.m */; };
 		3FB685A721BFB3250060E639 /* PINKDeallocHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB685A621BFB3250060E639 /* PINKDeallocHelperUITests.m */; };
+		3FB685B721BFB36E0060E639 /* PINKDeallocHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB685B621BFB36E0060E639 /* PINKDeallocHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3FB685A221BFB3240060E639 /* PINKDeallocHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINKDeallocHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB685A621BFB3250060E639 /* PINKDeallocHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINKDeallocHelperUITests.m; sourceTree = "<group>"; };
 		3FB685A821BFB3250060E639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB685B521BFB36E0060E639 /* PINKDeallocHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINKDeallocHelper.h; sourceTree = "<group>"; };
+		3FB685B621BFB36E0060E639 /* PINKDeallocHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINKDeallocHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		3FB6858121BFB3230060E639 /* PINKDeallocHelper */ = {
 			isa = PBXGroup;
 			children = (
+				3FB685B421BFB35C0060E639 /* Src */,
 				3FB6858221BFB3230060E639 /* AppDelegate.h */,
 				3FB6858321BFB3230060E639 /* AppDelegate.m */,
 				3FB6858521BFB3230060E639 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				3FB685A821BFB3250060E639 /* Info.plist */,
 			);
 			path = PINKDeallocHelperUITests;
+			sourceTree = "<group>";
+		};
+		3FB685B421BFB35C0060E639 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				3FB685B521BFB36E0060E639 /* PINKDeallocHelper.h */,
+				3FB685B621BFB36E0060E639 /* PINKDeallocHelper.m */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB685B721BFB36E0060E639 /* PINKDeallocHelper.m in Sources */,
 				3FB6858721BFB3230060E639 /* ViewController.m in Sources */,
 				3FB6859221BFB3240060E639 /* main.m in Sources */,
 				3FB6858421BFB3230060E639 /* AppDelegate.m in Sources */,
